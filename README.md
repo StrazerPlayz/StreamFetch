@@ -7,7 +7,7 @@ Download videos, audio, playlists, and more — all in one clean interface.
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.0.4-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -22,6 +22,28 @@ Download videos, audio, playlists, and more — all in one clean interface.
 * 📁 Automatic file organization
 * 🎨 Clean and user-friendly interface
 * 🔐 Member-only content support (with authentication)
+
+---
+
+## 🆕 Version 1.0.4
+
+### 🚨 Critical Fixes
+
+* Fixed startup crash on some systems:
+
+  * `Failed to load Python DLL from _MEI... temp path`
+
+* Switched internal app packaging from **PyInstaller onefile → onedir** for improved runtime reliability
+
+* Updated installer to deploy the full stable app runtime folder
+
+---
+
+### ⚙️ Stability
+
+* Improved compatibility across different Windows environments
+
+* Continued using bundled Visual C++ runtime dependencies for safer launch behavior
 
 ---
 
@@ -40,38 +62,6 @@ Download videos, audio, playlists, and more — all in one clean interface.
   * `MSVCP140.dll`
   * `VCRUNTIME140.dll`
   * `VCRUNTIME140_1.dll`
-
----
-
-## 🆕 Version 1.0.2
-
-### ⚙️ Improvements
-
-* Improved queue management and quick actions via menu options:
-
-  * Remove selected item
-  * Clear queue
-  * Open save folder
-
-* Added clearer access to **About** and **Help** through the menu
-
-* Continued support for:
-
-  * Audio extraction
-  * Playlist downloads
-  * Save presets
-  * Modern progress and phase display
-
----
-
-### 🛠️ Fixes
-
-* Fixed app launch issues on some systems by bundling missing runtime DLLs:
-
-  * `MSVCP140.dll`
-  * `VCRUNTIME140_1.dll`
-
-* Improved installer and update reliability for existing users
 
 ---
 
