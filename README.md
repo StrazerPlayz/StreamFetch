@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.7-blue)
+![Version](https://img.shields.io/badge/version-1.0.8-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,17 +28,34 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.0.8
+
+### ✨ Improvements
+
+* Fixed Download button visibility in the settings popup
+
+* Added Profile Preset dropdown (Default + saved profiles)
+
+* Improved profile workflow:
+
+  * Instant loading when switching profiles
+  * Save/reset presets directly from the popup
+
+* Added scrollable settings layout for smaller windows
+
+---
+
 ## 🆕 Version 1.0.7
 
 ### ✨ New Features
 
-* Redesigned update system with a themed update window (release notes + actions)
+* Redesigned update system with themed update window
 
 * Download History + Search with persistent logging
 
-* Advanced subtitle controls (download, auto, language, embed)
+* Subtitle controls (download, auto, language, embed)
 
-* Metadata & thumbnail embedding for audio (MP3/M4A)
+* Metadata & thumbnail embedding for audio
 
 * Duplicate detection to skip already-downloaded items
 
@@ -59,31 +76,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 ### 📦 Build
 
 * Installer: `streamfetch-setup-1.0.7.exe`
-
----
-
-## 🆕 Version 1.0.6
-
-### 🎉 Rebrand
-
-* Rebranded from **YT Downloader → StreamFetch**
-
----
-
-### ✨ Improvements
-
-* Cleaner Supported Sites section
-
-* Improved download popup layout and grouping
-
-* Enhanced dropdown visibility and theme readability
-
----
-
-### 📦 Build
-
-* App → `StreamFetch.exe`
-* Installer → `streamfetch-setup-1.0.6.exe`
 
 ---
 
