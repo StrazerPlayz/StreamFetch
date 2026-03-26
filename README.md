@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,53 +28,58 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.0.6
+
+### 🎉 Rebrand
+
+* Rebranded from **YT Downloader → StreamFetch** across app and installer
+
+---
+
+### ✨ Improvements
+
+* Added a cleaner **Supported Sites** section in Help/About
+
+* Improved download settings popup with better layout and grouping
+
+* Enhanced dropdowns with:
+
+  * Better contrast
+  * Larger styling
+  * Improved visibility across themes
+
+* Improved combobox readability in Light/Dark modes
+
+---
+
+### 📦 Build Changes
+
+* App → `StreamFetch.exe`
+* Installer → `streamfetch-setup-1.0.6.exe`
+
+---
+
 ## 🆕 Version 1.0.5
 
 ### ✨ Improvements
 
-* Refined and polished UI for a cleaner and more consistent desktop experience
+* Refined and polished UI for a cleaner experience
 
-* Improved download settings popup for better usability and clearer option selection
+* Improved download popup usability
 
-* Enhanced overall workflow when adding and starting downloads
+* Enhanced workflow and responsiveness
 
-* Improved responsiveness of queue and progress updates
+* Improved queue and progress updates
 
 ---
 
 ### 🛠️ Fixes
 
-* Fixed minor UI inconsistencies across Light/Dark/System themes
+* Fixed UI inconsistencies across themes
 
-* Improved stability when starting downloads with custom settings
+* Improved download stability
 
 * General bug fixes and performance improvements
-
----
-
-## 🆕 Version 1.0.4
-
-### 🎨 UI & Features
-
-* Major UI refresh with a classic desktop layout
-
-* Added **Light / Dark / System appearance switching**
-
-* New download workflow:
-
-  * Clicking Download opens a settings popup before starting
-  * Configure video/audio, quality, format, playlist, save location, speed, and authentication
-
-* Includes:
-
-  * App update checker
-  * Queue and progress system
-
----
-
-### ⚙️ Stability
-
-* Packaging improvements for more reliable app startup
 
 ---
 
