@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.3-blue)
+![Version](https://img.shields.io/badge/version-1.1.4-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,6 +28,50 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.4
+
+### 🚀 Major Additions
+
+* Rich queue previews (title, thumbnail, size, status)
+
+* Bulk import from .txt (auto dedupe + import summary)
+
+* File size estimates (live + in queue)
+
+* Cookies.txt importer with validation and management
+
+---
+
+### 🔐 Improvements
+
+* Smarter authentication flow with cookie priority
+
+* Improved handling for protected sites and 403 errors
+
+* Better support for direct stream links (.mp4 / .m3u8)
+
+---
+
+### 🎨 UI / UX
+
+* Queue pop-out and layout controls
+
+* Resizable layout with saved state
+
+* Improved download/queue workflow
+
+---
+
+### 🛠️ Error Handling
+
+* More accurate error classification
+
+* Clearer failure messages and guidance
+
+* Built-in diagnostics for bug reports
+
+---
+
 ## 🆕 Version 1.1.3 (Hotfix)
 
 ### 🛠️ Fixes
@@ -39,28 +83,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Added clearer retry guidance for failed downloads
 
 * Improved accuracy of site/extractor update detection
-
----
-
-## 🆕 Version 1.1.2
-
-### ✨ New Features
-
-* Resizable workspace layout with draggable panels
-
-* Queue pop-out support (dock / separate window)
-
-* Reset Layout option
-
-* Layout persistence (remembers positions, sizes, and states)
-
----
-
-### ⚙️ Improvements
-
-* Queue fully functional in both docked and pop-out modes
-
-* Improved layout flexibility and usability
 
 ---
 
