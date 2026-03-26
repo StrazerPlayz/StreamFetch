@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.9-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,6 +28,32 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.0
+
+### ✨ New Features
+
+* Rich queue previews with video title and thumbnails
+
+* Detailed queue layout (Title, Site, Type, Size, Status)
+
+* Bulk import from .txt (auto-skip duplicates + import summary)
+
+* File size estimates (live + in queue)
+
+* Built-in bug report and feature request actions
+
+---
+
+### ⚙️ Improvements
+
+* Background metadata loading (no UI freezing)
+
+* Improved thumbnail processing and consistency
+
+* Smoother and more responsive queue system
+
+---
+
 ## 🆕 Version 1.0.9
 
 ### ✨ Improvements
@@ -43,23 +69,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Fixed bottom action bar to always stay visible
 
 * Maintained profile presets and per-site workflow
-
----
-
-## 🆕 Version 1.0.8
-
-### ✨ Improvements
-
-* Fixed Download button visibility in the settings popup
-
-* Added Profile Preset dropdown (Default + saved profiles)
-
-* Improved profile workflow:
-
-  * Instant loading when switching profiles
-  * Save/reset presets directly from the popup
-
-* Added scrollable settings layout for smaller windows
 
 ---
 
