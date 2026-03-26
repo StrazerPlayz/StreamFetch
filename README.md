@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.1-blue)
+![Version](https://img.shields.io/badge/version-1.1.2-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,6 +28,28 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.2
+
+### ✨ New Features
+
+* Resizable workspace layout with draggable panels
+
+* Queue pop-out support (dock / separate window)
+
+* Reset Layout option
+
+* Layout persistence (remembers positions, sizes, and states)
+
+---
+
+### ⚙️ Improvements
+
+* Queue fully functional in both docked and pop-out modes
+
+* Improved layout flexibility and usability
+
+---
+
 ## 🆕 Version 1.1.1 (Hotfix)
 
 ### 🛠️ Fixes
@@ -35,32 +57,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Fixed top toolbar collapsing or appearing missing
 
 * Corrected layout so content expands properly while toolbar stays visible
-
----
-
-## 🆕 Version 1.1.0
-
-### ✨ New Features
-
-* Rich queue previews with video title and thumbnails
-
-* Detailed queue layout (Title, Site, Type, Size, Status)
-
-* Bulk import from .txt (auto-skip duplicates + import summary)
-
-* File size estimates (live + in queue)
-
-* Built-in bug report and feature request actions
-
----
-
-### ⚙️ Improvements
-
-* Background metadata loading (no UI freezing)
-
-* Improved thumbnail processing and consistency
-
-* Smoother and more responsive queue system
 
 ---
 
