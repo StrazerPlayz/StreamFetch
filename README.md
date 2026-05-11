@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.6-blue)
+![Version](https://img.shields.io/badge/version-1.1.7-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,6 +28,18 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.7
+
+### ✨ New
+
+* Live playlist/channel progress counters in the status bar
+
+* Displays progress like `[3/24]` during playlist downloads
+
+* Automatically appears when playlist progress is detected
+
+---
+
 ## 🆕 Version 1.1.6
 
 ### ✨ Improvements
@@ -43,34 +55,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 ### ⚙️ Stability
 
 * Maintenance update with no UI changes from v1.1.5
-
----
-
-## 🆕 Version 1.1.5
-
-### ✨ New
-
-* Copy Error Details in failure dialog
-
-* Retry Selected from Download History
-
-* Queue ETA display (toggle in View, persisted)
-
----
-
-### ⚙️ Improvements
-
-* Improved failure dialog UX with quick actions
-
-* Smarter ETA calculation with fallback support
-
----
-
-### 🛠️ Fixes
-
-* Fixed incorrect output path in history
-
-* Fixed stuck “Calculating...” estimate labels
 
 ---
 
