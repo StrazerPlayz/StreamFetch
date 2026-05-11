@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.8-blue)
+![Version](https://img.shields.io/badge/version-1.1.9-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,6 +28,36 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.9 (Hotfix)
+
+### 🛠️ Fixes
+
+* Clean rebuild after PyInstaller cache caused the v1.1.8 installer to package an older executable
+
+* v1.1.9 now correctly includes all intended v1.1.8 features
+
+---
+
+### ✨ Included Features
+
+* YouTube channel filters:
+
+  * All Videos
+  * Videos Only
+  * Shorts Only
+  * Live Streams Only
+  * Podcasts Only
+
+* Supported channel URL formats:
+
+  * `/channel/`
+  * `/@`
+  * `/c/`
+
+* Installer destination selection with Browse support
+
+---
+
 ## 🆕 Version 1.1.8
 
 ### ✨ New Features
@@ -40,12 +70,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
   * Live Streams Only
   * Podcasts Only
 
-* Automatically detects supported channel URL formats:
-
-  * `/channel/`
-  * `/@`
-  * `/c/`
-
 * Channel filters work with:
 
   * Saved profiles
@@ -56,18 +80,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 ### 📦 Installer Improvements
 
 * Added custom install directory selection during setup
-
----
-
-## 🆕 Version 1.1.7
-
-### ✨ New
-
-* Live playlist/channel progress counters in the status bar
-
-* Displays progress like `[3/24]` during playlist downloads
-
-* Automatically appears when playlist progress is detected
 
 ---
 
