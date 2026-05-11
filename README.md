@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.7-blue)
+![Version](https://img.shields.io/badge/version-1.1.8-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,6 +28,37 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.8
+
+### ✨ New Features
+
+* Added YouTube channel filtering:
+
+  * All Videos
+  * Videos Only
+  * Shorts Only
+  * Live Streams Only
+  * Podcasts Only
+
+* Automatically detects supported channel URL formats:
+
+  * `/channel/`
+  * `/@`
+  * `/c/`
+
+* Channel filters work with:
+
+  * Saved profiles
+  * History retry
+
+---
+
+### 📦 Installer Improvements
+
+* Added custom install directory selection during setup
+
+---
+
 ## 🆕 Version 1.1.7
 
 ### ✨ New
@@ -37,24 +68,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Displays progress like `[3/24]` during playlist downloads
 
 * Automatically appears when playlist progress is detected
-
----
-
-## 🆕 Version 1.1.6
-
-### ✨ Improvements
-
-* Copy Error Details now includes full yt-dlp command
-
-* Command capture across retries (auth, 403, Cloudflare fallback)
-
-* Improved debugging with fully reproducible command context
-
----
-
-### ⚙️ Stability
-
-* Maintenance update with no UI changes from v1.1.5
 
 ---
 
